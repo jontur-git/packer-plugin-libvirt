@@ -1,4 +1,4 @@
-module github.com/thomasklein94/packer-plugin-libvirt
+module github.com/jontur-git/packer-plugin-libvirt
 
 go 1.18
 
