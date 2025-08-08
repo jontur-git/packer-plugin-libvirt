@@ -1,3 +1,6 @@
+# Fork from "thomasklein94" original plugin
+Main changes might not be documented
+
 # Packer Plugin Libvirt
 The `Libvirt` multi-component plugin can be used with HashiCorp [Packer](https://www.packer.io)
 to create custom images. For the full list of available features for this plugin see [docs](docs).
@@ -19,8 +22,8 @@ Then, run [`packer init`](https://www.packer.io/docs/commands/init).
 packer {
   required_plugins {
     libvirt = {
-      version = ">= 0.5.0"
-      source  = "github.com/thomasklein94/libvirt"
+      version = ">= 0.5.1"
+      source  = "github.com/jontur-git/libvirt"
     }
   }
 }
@@ -53,7 +56,6 @@ documentation located in the [`docs/`](docs) directory.
 
 
 ## Contributing
-
 * If you think you've found a bug in the code or you have a question regarding
   the usage of this software, please reach out to me by opening an issue in
   this GitHub repository.
