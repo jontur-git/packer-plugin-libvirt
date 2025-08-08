@@ -6,8 +6,8 @@ import (
 
 	"github.com/hashicorp/packer-plugin-sdk/plugin"
 
-	"github.com/thomasklein94/packer-plugin-libvirt/builder/libvirt"
-	"github.com/thomasklein94/packer-plugin-libvirt/version"
+	"github.com/jontur-git/packer-plugin-libvirt/builder/libvirt"
+	"github.com/jontur-git/packer-plugin-libvirt/version"
 )
 
 func main() {
