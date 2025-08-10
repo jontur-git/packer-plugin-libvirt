@@ -13,8 +13,8 @@ import (
 	"github.com/hashicorp/packer-plugin-sdk/template/config"
 	"github.com/hashicorp/packer-plugin-sdk/template/interpolate"
 	"github.com/rs/xid"
-	"github.com/thomasklein94/packer-plugin-libvirt/builder/libvirt/network"
-	"github.com/thomasklein94/packer-plugin-libvirt/builder/libvirt/volume"
+	"github.com/jontur-git/packer-plugin-libvirt/builder/libvirt/network"
+	"github.com/jontur-git/packer-plugin-libvirt/builder/libvirt/volume"
 )
 
 type Config struct {

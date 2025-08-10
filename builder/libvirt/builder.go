@@ -10,10 +10,10 @@ import (
 	"github.com/hashicorp/packer-plugin-sdk/multistep"
 	"github.com/hashicorp/packer-plugin-sdk/multistep/commonsteps"
 	packersdk "github.com/hashicorp/packer-plugin-sdk/packer"
-	libvirtutils "github.com/thomasklein94/packer-plugin-libvirt/libvirt-utils"
+	libvirtutils "github.com/jontur-git/packer-plugin-libvirt/libvirt-utils"
 )
 
-//const builderId = "thomasklein94.libvirt" > fix to make the packer-vagrant post-processor work
+//const builderId = "jontur-git.libvirt" > fix to make the packer-vagrant post-processor work
 const builderId = "libvirt"
 
 type Builder struct {

@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	libvirtutils "github.com/thomasklein94/packer-plugin-libvirt/libvirt-utils"
+	libvirtutils "github.com/jontur-git/packer-plugin-libvirt/libvirt-utils"
 )
 
 func TestValidUriUnmarshall(t *testing.T) {

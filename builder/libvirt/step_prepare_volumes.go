@@ -8,7 +8,7 @@ import (
 	libvirt "github.com/digitalocean/go-libvirt"
 	"github.com/hashicorp/packer-plugin-sdk/multistep"
 	packersdk "github.com/hashicorp/packer-plugin-sdk/packer"
-	"github.com/thomasklein94/packer-plugin-libvirt/builder/libvirt/volume"
+	"github.com/jontur-git/packer-plugin-libvirt/builder/libvirt/volume"
 	"libvirt.org/go/libvirtxml"
 )
 

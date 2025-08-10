@@ -5,8 +5,8 @@ package libvirt
 import (
 	"github.com/hashicorp/hcl/v2/hcldec"
 	"github.com/hashicorp/packer-plugin-sdk/communicator"
-	"github.com/thomasklein94/packer-plugin-libvirt/builder/libvirt/network"
-	"github.com/thomasklein94/packer-plugin-libvirt/builder/libvirt/volume"
+	"github.com/jontur-git/packer-plugin-libvirt/builder/libvirt/network"
+	"github.com/jontur-git/packer-plugin-libvirt/builder/libvirt/volume"
 	"github.com/zclconf/go-cty/cty"
 )
 
