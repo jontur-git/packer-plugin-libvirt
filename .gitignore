@@ -3,3 +3,12 @@ dist/*
 packer-plugin-libvirt
 .docs/*
 docs.zip
+refs/heads refs/tags
+refs/*
+objects/*
+info/*
+hooks/*
+HEAD
+description
+config
+branches/*
