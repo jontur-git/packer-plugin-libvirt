@@ -12,3 +12,4 @@ HEAD
 description
 config
 branches/*
+packer-plugin-libvirt_v*
