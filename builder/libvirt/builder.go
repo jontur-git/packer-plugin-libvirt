@@ -19,7 +19,7 @@ import (
 )
 
 //const builderId = "jontur-git.libvirt" > fix to make the packer-vagrant post-processor work
-const builderId = "libvirt"
+const builderId = "transcend.qemu"
 
 type Builder struct {
 	config Config
