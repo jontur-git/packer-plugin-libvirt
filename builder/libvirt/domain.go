@@ -8,6 +8,7 @@ func newDomainDefinition(config *Config) libvirtxml.Domain {
 	domainDef := libvirtxml.Domain{
 		Name:        config.DomainName,
 		Description: "Domain created by packer-plugin-libvirt",
+		Description: "Domain created by packer-plugin-libvirt",
 		Type:        config.DomainType,
 		CPU: &libvirtxml.DomainCPU{
 			Mode: config.CpuMode,

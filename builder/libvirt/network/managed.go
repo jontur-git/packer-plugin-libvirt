@@ -2,6 +2,7 @@ package network
 
 import (
 	"github.com/hashicorp/packer-plugin-sdk/template/interpolate"
+	"github.com/hashicorp/packer-plugin-sdk/template/interpolate"
 	"libvirt.org/go/libvirtxml"
 )
 

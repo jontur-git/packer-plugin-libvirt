@@ -1,10 +1,12 @@
 package version
 
 import "github.com/hashicorp/packer-plugin-sdk/version"
+import "github.com/hashicorp/packer-plugin-sdk/version"
 
 var (
 	// Version is the main version number that is being run at the moment.
-	Version = "0.5.2"
+	Version = "0.5.3"
+	Version = "0.5.3"
 
 	// VersionPrerelease is A pre-release marker for the Version. If this is ""
 	// (empty string) then it means that it is a final release. Otherwise, this
@@ -12,6 +14,8 @@ var (
 	VersionPrerelease = ""
 
 	// PluginVersion is used by the plugin set to allow Packer to recognize
+	// PluginVersion is used by the plugin set to allow Packer to recognize
+	// what version this plugin is.
 	// what version this plugin is.
 	PluginVersion = version.InitializePluginVersion(Version, VersionPrerelease)
 )

@@ -7,6 +7,7 @@ import (
 	"strconv"
 
 	"github.com/hashicorp/packer-plugin-sdk/pathing"
+	"github.com/hashicorp/packer-plugin-sdk/pathing"
 	"golang.org/x/crypto/ssh"
 	"golang.org/x/crypto/ssh/knownhosts"
 )

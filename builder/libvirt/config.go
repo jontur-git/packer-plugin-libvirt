@@ -1,4 +1,5 @@
 //go:generate go run github.com/hashicorp/packer-plugin-sdk/cmd/packer-sdc struct-markdown
+//go:generate go run github.com/hashicorp/packer-plugin-sdk/cmd/packer-sdc struct-markdown
 
 package libvirt
 
@@ -8,12 +9,19 @@ import (
 
 	"github.com/digitalocean/go-libvirt"
 	"github.com/hashicorp/packer-plugin-sdk/common"
+	"github.com/hashicorp/packer-plugin-sdk/common"
+	"github.com/hashicorp/packer-plugin-sdk/communicator"
 	"github.com/hashicorp/packer-plugin-sdk/communicator"
 	packersdk "github.com/hashicorp/packer-plugin-sdk/packer"
+	packersdk "github.com/hashicorp/packer-plugin-sdk/packer"
 	"github.com/hashicorp/packer-plugin-sdk/template/config"
+	"github.com/hashicorp/packer-plugin-sdk/template/config"
+	"github.com/hashicorp/packer-plugin-sdk/template/interpolate"
 	"github.com/hashicorp/packer-plugin-sdk/template/interpolate"
 	"github.com/rs/xid"
 	"github.com/jontur-git/packer-plugin-libvirt/builder/libvirt/network"
+	"github.com/jontur-git/packer-plugin-libvirt/builder/libvirt/network"
+	"github.com/jontur-git/packer-plugin-libvirt/builder/libvirt/volume"
 	"github.com/jontur-git/packer-plugin-libvirt/builder/libvirt/volume"
 )
 

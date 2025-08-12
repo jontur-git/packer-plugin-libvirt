@@ -8,6 +8,7 @@ import (
 	"os"
 
 	"github.com/hashicorp/packer-plugin-sdk/multistep"
+	"github.com/hashicorp/packer-plugin-sdk/multistep"
 
 	libvirt "github.com/digitalocean/go-libvirt"
 	"libvirt.org/go/libvirtxml"

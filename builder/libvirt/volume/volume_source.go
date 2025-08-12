@@ -1,4 +1,5 @@
 //go:generate go run github.com/hashicorp/packer-plugin-sdk/cmd/packer-sdc struct-markdown
+//go:generate go run github.com/hashicorp/packer-plugin-sdk/cmd/packer-sdc struct-markdown
 
 package volume
 
@@ -6,6 +7,8 @@ import (
 	"fmt"
 
 	"github.com/hashicorp/packer-plugin-sdk/multistep"
+	"github.com/hashicorp/packer-plugin-sdk/multistep"
+	"github.com/hashicorp/packer-plugin-sdk/template/interpolate"
 	"github.com/hashicorp/packer-plugin-sdk/template/interpolate"
 	"libvirt.org/go/libvirtxml"
 )
