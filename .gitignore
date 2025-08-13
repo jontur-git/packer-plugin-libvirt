@@ -1,0 +1,9 @@
+main
+HEAD
+dist/*
+packer-plugin-libvirt
+.docs/*
+docs.zip
+.git/*
+info/*
+config 
