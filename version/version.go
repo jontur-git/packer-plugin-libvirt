@@ -1,11 +1,9 @@
 package version
 
 import "github.com/hashicorp/packer-plugin-sdk/version"
-import "github.com/hashicorp/packer-plugin-sdk/version"
 
 var (
 	// Version is the main version number that is being run at the moment.
-	Version = "0.5.3"
 	Version = "0.5.3"
 
 	// VersionPrerelease is A pre-release marker for the Version. If this is ""
